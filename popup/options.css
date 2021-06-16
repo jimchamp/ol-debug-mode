@@ -2,6 +2,7 @@
    background-color: #E2DCC5;
    font-family: "Lucida Grande", Verdana, Geneva, Helvetica, Arial, sans-serif;
    color: hsl(0, 0%, 20%);
+   min-width: 400px;
  }
  
  .debug-options {
