@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Open Library Debug Mode",
+  "version": "1.0.0",
+  "description": "Browse Open Library in debug mode",
+  "icons": {
+    "48": "icons/OL_logo-48.png",
+    "96": "icons/OL_logo-96.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.openlibrary.org/*"
+  ],
+  "browser_action": {
+    "default_icon": "icons/OL_logo-32.png",
+    "default_title": "Open Library Debug",
+    "default_popup": "popup/options.html"
+  }
+}
